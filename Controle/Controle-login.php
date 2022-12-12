@@ -17,7 +17,7 @@ if($adm->login($nome, $email, $senha)==true){
         $_SESSION['Nome']  = $nome;
         $_SESSION['Email'] = $email;
         $_SESSION['Senha'] = $senha;
-        header('location: ../index.html');
+        header('location: ../index.php');
     }
 }else{
     unset ($_SESSION['login']);
