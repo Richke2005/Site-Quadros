@@ -1,13 +1,3 @@
-<?php
-require 'vendor/autoload.php';
-
-
-use \App\Session\User as SessionUser;
- SessionUser::isLogged()
-
-
-?>
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -23,38 +13,34 @@ use \App\Session\User as SessionUser;
 </head>
 
 <body>
+<div class="body-page">
     <header>
         <nav>
-         <a class="logo" href="index.html"><img src="Assets/Logo quadros.png" alt="Logo site"></a>
+         <a class="logo" href="index.php"><img src="Assets/Logo quadros.png" alt="Logo site"></a>
          <ul class="nav-list">
-           <li><a href="">Início</a></li>
-           <li><a href="Pages/admin.php">ADM</a></li>
-           <li><a href="Pages/Produtos.html">Produtos</a></li>
-           <li><a href="">Avaliação</a></li>
+           <li><a href="index.php">Home</a></li>
+           <li><a href="Pages/Catálogo.php">Catálogo</a></li>
+           <li><a href="">Carrinho</a></li>
+           <li><a href="Pages/Perfil.php">Perfil</a></li>
          </ul>
         </nav>
          </header>
-    <main>
-    
-    </main>
-    <div class="body-page">
-      <h1 class="h1-index"> Bem vindo! </h1>
-      <!-- <div class="container">
+
+         
+      
+       <div class="container">
         <div class="header">
+          <h1 class="h1-index"> Bem vindo! </h1>
           
         </div>
           <div class="text">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Cum laborum dolor molestias repellat quasi. Ea ullam esse laboriosam aut 
-        repellendus deserunt blanditiis voluptatem, enim molestias tempore distinctio sint
-         alias officia?</p>
-           <br>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam minus illum nihil molestias exercitationem tempora deleniti eius perferendis. Perspiciatis, voluptatem! Maiores aperiam ipsum voluptatum corrupti totam vel fugit, aliquid error.</p>
-          </div>
+            <h1>Guarde memórias, viva momentos!</h1> 
+        </div>
       <div class="container-R">
-        <img src="Assets/Logo quadros.png" alt="">
+        <!-- <img src="Assets/Logo quadros.png" alt=""> -->
       </div>
-    </div> -->
+    </div> 
+
   </div>
 <!-- separação de pag -->
   <div class="body-page2">
