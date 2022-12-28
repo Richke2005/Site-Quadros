@@ -19,11 +19,13 @@
   }
   
   nav{
+    width: 100vw;
+    height: 12vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100vw;
-    height: 12vh;
+    background-color:rgb(248, 72, 72);
+
   
   }
   

@@ -7,13 +7,6 @@
   }
 
 
-  body{
-    margin: 0;
-    width: 100vw;
-    height: 100vh;
-  }
-
-
   a{
     color: black;
     text-decoration:none;
@@ -32,8 +25,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    overflow: hidden;
-    position: fixed;
+    background-color:  rgb(248, 72, 72);
+  
   }
   
   .logo{
@@ -66,10 +59,17 @@
 
   /* começo da página ============================================================================== */
 
-  
+  body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
 
   h1{
-   color: #f9f6ec;
+   color: black;
    transition: 0.3s;
    font-family: 'Birds';
   }
@@ -78,85 +78,51 @@
     animation: letter 2s;
   }
 
-  .h1-index{
-   font-size: 3rem;
-   color: #fbebaf;
-  }
-  h3{
-    color:  #f9f6ec;
-}
 
 
 /* Separação de página ================================================ */
 
 .body-page{
-  background: url("../Assets/Quadro coração.jpg") no-repeat center center;
-  background-size:cover; 
-  width: 100vw; 
-  height: 100vh;
-  display: flex;
-  flex-direction: column; /*direcionamento da propriedade flex */
-  align-items: center; /*alinhar no eixo x */
-  justify-content: center; /*alinhar no eixo y */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+  }
+
+.container-L{
+    width: 60%;
+    height: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
   
-}/*possível deletar */
+  .container-L img{
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+  }
 
-
-.container{
-  margin: 10px;
-  width: 80vw;
-  height: 80vh;
-  border-radius: 30px;
+.Forms{
+  padding: 3.5%;
+  width: 40%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212); */
+  background-color:  #fbebaf;
 }
 
-
-/* .header{
-  height: 10%;
-  display: flex;
-  flex-wrap:wrap;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #26979f;
-  padding: 3rem;
-} */
-
-.text{
-  width: 40vw;
-  justify-content: space-around;
-  align-items: center;
-
-}
-.container-R{
-  width: 40vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+form{
+    display: flex;
+    flex-direction: column;
 }
 
-.container-R img{
-  width: 90%;
-  height: 90%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 /* separação parte 2 da pagina */
 
 
-.body-page2{
-  background: url("../Assets/Fundo site.png") no-repeat center center;
-  background-size:cover;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
 @font-face {
   font-family: 'Carpet' ;
   src: url('../Fonts/LTCarpet.ttf')

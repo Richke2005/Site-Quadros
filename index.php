@@ -13,7 +13,7 @@
 </head>
 
 <body>
-<div class="body-page">
+
     <header>
         <nav>
          <a class="logo" href="index.php"><img src="Assets/Logo quadros.png" alt="Logo site"></a>
@@ -25,9 +25,8 @@
          </ul>
         </nav>
          </header>
-
          
-      
+      <div class="body-page">
        <div class="container">
         <div class="header">
           <h1 class="h1-index"> Bem vindo! </h1>
