@@ -13,9 +13,14 @@
 </head>
 
 <body>
-    <header>
+<header>
         <nav>
          <a class="logo" href="../index.php"><img src="../Assets/Logo quadros.png" alt="Logo site"></a>
+         <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+         </div>
          <ul class="nav-list">
            <li><a href="../index.php">Home</a></li>
            <li><a href="Catálogo.php">Catálogo</a></li>
@@ -25,6 +30,7 @@
         </nav>
          </header>
 
+         <script src="../Js/mobile-navbar.js"></script>
          
   <div class="body-page">
  

@@ -23,6 +23,24 @@ use \App\Session\User as SessionUser;
     <title>www.Hildaquadros.com.br</title>
 </head>
 <body>
+<header>
+        <nav>
+         <a class="logo" href="../index.php"><img src="../Assets/Logo quadros.png" alt="Logo site"></a>
+         <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+         </div>
+         <ul class="nav-list">
+           <li><a href="../index.php">Home</a></li>
+           <li><a href="Catálogo.php">Catálogo</a></li>
+           <li><a href="">Carrinho</a></li>
+           <li><a href="Perfil.php">Perfil</a></li>
+         </ul>
+        </nav>
+         </header>
+
+         <script src="../Js/mobile-navbar.js"></script>
 <div class="body-page">
 <h1> Olá, <?php echo $info['name']?> </h1>
 </div>

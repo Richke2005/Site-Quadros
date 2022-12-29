@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <link rel="stylesheet" href="../Css/Fotos.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="Assets/Logo pequeno.jpg" type="image/x-icon" />
@@ -13,9 +13,14 @@
 </head>
 
 <body>
-    <header>
+<header>
         <nav>
          <a class="logo" href="../index.php"><img src="../Assets/Logo quadros.png" alt="Logo site"></a>
+         <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+         </div>
          <ul class="nav-list">
            <li><a href="../index.php">Home</a></li>
            <li><a href="Catálogo.php">Catálogo</a></li>
@@ -23,8 +28,10 @@
            <li><a href="Perfil.php">Perfil</a></li>
          </ul>
         </nav>
-         </header>
+</header>
 
+
+         <script src="../Js/mobile-navbar.js"></script>
          
   <div class="body-page">
  

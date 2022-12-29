@@ -13,17 +13,24 @@
 </head>
 
 <body>
-    <header>
+<header>
         <nav>
          <a class="logo" href="../index.php"><img src="../Assets/Logo quadros.png" alt="Logo site"></a>
+         <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+         </div>
          <ul class="nav-list">
            <li><a href="../index.php">Home</a></li>
-           <li><a href="../Pages/Catálogo.php">Catálogo</a></li>
+           <li><a href="Catálogo.php">Catálogo</a></li>
            <li><a href="">Carrinho</a></li>
-           <li><a href="">Perfil</a></li>
+           <li><a href="Perfil.php">Perfil</a></li>
          </ul>
         </nav>
          </header>
+
+         <script src="../Js/mobile-navbar.js"></script>
 
     <div class="slider">
 
@@ -86,12 +93,22 @@
             <a href="3-foto.php"><img src="../Assets/Imagem quadros.jpg" alt="">3 fotos</a>
             <a href="4-foto.php"><img src="../Assets/Imagem quadros.jpg" alt="">4 fotos</a>
             <a href="5-foto.php"><img src="../Assets/Imagem quadros.jpg" alt="">5 fotos</a>
-            <select class="form-select" aria-label="Default select example">
-              <option selected>Open this select menu</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
+
+            <form action="../Controle/Controle.Pedidos.php" method="post">
+            <select name="quadros" class="form-select" aria-label="Default select example">
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
             </select>
+            <button type="submit" class="button">Enviar</button>
+            </form>
         <!-- container-R-->
       </div>
     </div>
